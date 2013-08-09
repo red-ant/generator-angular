@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('<%= moduleName %>')
-  .provider('<%= _.camelize(name) %>', function () {
+angular.module('<%= moduleName %>').
+  provider('<%= _.classify(name) %>', function() {
 
     // Private variables
     var salutation = 'Hello';

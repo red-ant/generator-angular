@@ -1,4 +1,4 @@
 'use strict';
 
-angular.module('<%= moduleName %>')
-  .value('<%= _.camelize(name) %>', 42);
+angular.module('<%= moduleName %>').
+  value('<%= _.classify(name) %>', 42);

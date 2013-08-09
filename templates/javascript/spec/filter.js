@@ -1,12 +1,11 @@
 'use strict';
 
-describe('Filter: <%= _.camelize(name) %>', function () {
+describe('Filter: <%= _.camelize(name) %>', function() {
 
-  // load the filter's module
   beforeEach(module('<%= moduleName %>'));
 
-  // initialize a new instance of the filter before each test
   var <%= _.camelize(name) %>;
+
   beforeEach(inject(function ($filter) {
     <%= _.camelize(name) %> = $filter('<%= _.camelize(name) %>');
   }));
